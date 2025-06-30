@@ -1,46 +1,75 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 body {
-  font-family: sans-serif;
-  background: #f9f9f9;
+  font-family: 'Inter', sans-serif;
+  background: #f4f7fc;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #2e3a59;
+  line-height: 1.6;
 }
 
 header {
-  background: #003366;
+  background: linear-gradient(to right, #003366, #00509e);
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+p {
+  margin-top: 0;
 }
 
 section {
-  padding: 1.5rem 2rem;
-  max-width: 800px;
-  margin: auto;
+  background: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 850px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-4px);
 }
 
 h2 {
   color: #003366;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 0.3rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
 }
 
 a {
-  color: #003366;
+  color: #00509e;
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
+ul {
+  padding-left: 1.2rem;
+}
+
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #eee;
-  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #e6ecf2;
+  color: #555;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  border-top: 1px solid #ccc;
 }
+
